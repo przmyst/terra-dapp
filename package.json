@@ -1,0 +1,53 @@
+{
+  "name": "terra-dapp",
+  "version": "0.0.1",
+  "description": "Terra Firebase Dapp",
+  "productName": "TerraDapp",
+  "author": "shiruku <shiruku@pm.me>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "@terra-money/terra.js": "^3.1.10",
+    "@terra-money/wallet-controller": "^4.0.1",
+    "@terra-money/wallet-provider": "^4.0.1",
+    "bech32": "^2.0.0",
+    "core-js": "^3.6.5",
+
+    "firebase": "^10.3.1",
+    "moment": "^2.29.4",
+    "quasar": "^2.6.0",
+    "ramda": "^0.29.0",
+    "ramda-adjunct": "^4.1.1",
+    "rxjs": "^7.8.1",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app-webpack": "^3.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint": "^8.49.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "eslint-webpack-plugin": "^4.0.1"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
